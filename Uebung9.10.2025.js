@@ -37,3 +37,8 @@ console.log(upperCasedName);
 const filterMap = fruits.filter(fruit => fruit.price > 2).map(fruit => ({symbol : fruit.symbol , price: fruit.price}));
 console.log(filterMap);
 
+
+// Destructuring und Rest zusammen
+const person = {name: "ana", age: 18, clazz: "7Bif"}
+const {clazz, ...personWithoutClazz} = person;
+console.log(personWithoutClazz);
