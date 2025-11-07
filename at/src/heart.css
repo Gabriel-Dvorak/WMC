@@ -1,0 +1,11 @@
+.heart-button {
+    font-size: 3rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.heart-button.animate {
+    transform: scale(1.5);
+}
